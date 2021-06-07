@@ -53,7 +53,7 @@
     "gatsby-transformer-sharp": "^2.1.13",
     "mdx-utils": "0.0.2",
     "moment": "^2.24.0",
-    "polished": "^2.3.3",
+    "polished": "^3.7.2",
     "prism-react-renderer": "^0.1.5",
     "prism-themes": "^1.0.1",
     "prismjs": "^1.21.0",
