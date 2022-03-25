@@ -77,7 +77,8 @@
     "typography-theme-wordpress-2016": "^0.16.18",
     "use-dark-mode": "^2.3.1",
     "yarn": "^1.22.0",
-    "yup": "^0.26.10"
+    "yup": "^0.26.10",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
@@ -106,6 +107,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "serve public/",
-    "newPost": "node ./scripts/new-post.js"
-  }
+    "newPost": "node ./scripts/new-post.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
