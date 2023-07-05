@@ -80,7 +80,7 @@
     "yup": "^0.26.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.22.6",
     "babel-eslint": "^10.0.1",
     "babel-preset-gatsby": "^0.1.8~",
     "eslint": "^5.14.1",
