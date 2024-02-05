@@ -76,7 +76,7 @@
     "typography": "^0.16.18",
     "typography-theme-wordpress-2016": "^0.16.18",
     "use-dark-mode": "^2.3.1",
-    "yarn": "^1.22.0",
+    "yarn": "^1.22.13",
     "yup": "^0.26.10"
   },
   "devDependencies": {
